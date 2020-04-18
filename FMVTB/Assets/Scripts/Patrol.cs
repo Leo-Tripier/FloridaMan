@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.Serialization;
-using Random = System.Random;
 
 public class Patrol : MonoBehaviour
 {
@@ -20,8 +19,6 @@ public class Patrol : MonoBehaviour
     void Start()
     {
         waitTime = startWaitTime;
-        //Random rnd = new Random();
-        //randomSpot = rnd.Next(0, moveSpots.Length);
         right = new Vector2(transform.position.x + 50.0f,transform.position.y);
         left = new Vector2(transform.position.x -  50.0f,transform.position.y);
         target = right;
@@ -35,7 +32,6 @@ public class Patrol : MonoBehaviour
         {
             if (waitTime <= 0)
             {
-                Random rnd = new Random();
                 target = left;
                 waitTime = startWaitTime;
             }
@@ -49,7 +45,6 @@ public class Patrol : MonoBehaviour
         {
             if (waitTime <= 0)
             {
-                Random rnd = new Random();
                 target = right;
                 waitTime = startWaitTime;
             }
