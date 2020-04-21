@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "AstarPathfindingProject.csproj", "{92EB493F-9DAB-FB5D-9927-62908686910E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{550FBCC5-4AFD-88E5-6556-41AC36245D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{5A0C95BB-C085-719D-16F1-640FCC5B8582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageToolsEditor", "PackageToolsEditor.csproj", "{BA41DCAD-7654-B360-6092-CB070483912F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92EB493F-9DAB-FB5D-9927-62908686910E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EB493F-9DAB-FB5D-9927-62908686910E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EB493F-9DAB-FB5D-9927-62908686910E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EB493F-9DAB-FB5D-9927-62908686910E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550FBCC5-4AFD-88E5-6556-41AC36245D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550FBCC5-4AFD-88E5-6556-41AC36245D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550FBCC5-4AFD-88E5-6556-41AC36245D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550FBCC5-4AFD-88E5-6556-41AC36245D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0C95BB-C085-719D-16F1-640FCC5B8582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0C95BB-C085-719D-16F1-640FCC5B8582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0C95BB-C085-719D-16F1-640FCC5B8582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0C95BB-C085-719D-16F1-640FCC5B8582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA41DCAD-7654-B360-6092-CB070483912F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA41DCAD-7654-B360-6092-CB070483912F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA41DCAD-7654-B360-6092-CB070483912F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA41DCAD-7654-B360-6092-CB070483912F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
